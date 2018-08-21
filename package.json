@@ -1,0 +1,58 @@
+{
+  "name": "js-starter",
+  "version": "1.0.0",
+  "description": "Javascript/typescript starter for application development using node/git",
+  "main": "src/App.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "eslintConfig": {
+    "env": {
+      "browser": true,
+      "es6": true
+    },
+    "extends": "eslint:recommended",
+    "parserOptions": {
+      "ecmaFeatures": {
+        "jsx": false
+      },
+      "ecmaVersion": 2015,
+      "sourceType": "module"
+    },
+    "rules": {
+      "indent": [
+        "error",
+        4
+      ],
+      "linebreak-style": [
+        "error",
+        "windows"
+      ],
+      "quotes": [
+        "error",
+        "single"
+      ],
+      "semi": [
+        "error",
+        "always"
+      ],
+      "no-undef": 1,
+      "no-unused-vars": 1
+
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anorman68/js-starter.git"
+  },
+  "keywords": [
+    "starter",
+    "javascript"
+  ],
+  "author": "Al Norman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/anorman68/js-starter/issues"
+  },
+  "homepage": "https://github.com/anorman68/js-starter#readme"
+}
