@@ -55,6 +55,7 @@
   },
   "homepage": "https://github.com/anorman68/js-starter#readme",
   "dependencies": {
-    "chalk": "^2.4.1"
+    "chalk": "^2.4.1",
+    "http": "0.0.0"
   }
 }

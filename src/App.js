@@ -1,7 +1,16 @@
-var easy = 'abc'; /*eslint-disable-line no-unused-vars*/
-var chalk = require('chalk');
+const http = require('http');
 
-var msg = 'Hello World';
-console.log(msg); /*eslint-disable-line no-console*/
+const hostname = '127.0.0.1';
+const port = 3000;
 
-console.log(chalk.blue(msg));
+const server = http.createServer((req, res) => {
+  res.statusCode = 200;
+  res.setHeader('Content-Type', 'text/plain');
+  res.end('Hello World\n');
+});
+
+server.listen(port, hostname, () => {
+  console.log(`Server running at http://${hostname}:${port}/`);
+});
+// Run as 'node src/App.js'
+// Open browser to http://localhost:3000
