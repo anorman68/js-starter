@@ -1,7 +1,7 @@
 {
   "name": "js-starter",
   "version": "1.0.0",
-  "description": "Javascript/typescript starter for application development using node/git",
+  "description": "Javascript starter for application development using node/git",
   "main": "src/App.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -38,7 +38,6 @@
       ],
       "no-undef": 1,
       "no-unused-vars": 1
-
     }
   },
   "repository": {
@@ -54,5 +53,8 @@
   "bugs": {
     "url": "https://github.com/anorman68/js-starter/issues"
   },
-  "homepage": "https://github.com/anorman68/js-starter#readme"
+  "homepage": "https://github.com/anorman68/js-starter#readme",
+  "dependencies": {
+    "chalk": "^2.4.1"
+  }
 }
